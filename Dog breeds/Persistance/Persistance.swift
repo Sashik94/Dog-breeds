@@ -16,8 +16,6 @@ class Persistance {
     
     func writeModel(breedStr: String, subbreedStr: String?, imageURLStr: String) {
         try! realm.write {
-//            self.realm.create(BreedRealm.self, value: model, update: .all)
-//            self.realm.refresh()
             
             var fullBread = breedStr
             
@@ -48,7 +46,6 @@ class Persistance {
         let object: [BreedRealm]?
         
         object = realm.objects(BreedRealm.self).filter("#image.@count > 0").array
-//        object = realm.objects(BreedRealm.self).array
         
         return object
     }

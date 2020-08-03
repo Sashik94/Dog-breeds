@@ -53,7 +53,7 @@ class ImageViewController: UIViewController {
     }
     
     @IBAction func shareButton(_ sender: UIBarButtonItem) {
-        // Create the action sheet
+        
         let myActionSheet = UIAlertController(title: "Share photo", message: "", preferredStyle: UIAlertController.Style.actionSheet)
         
         let shareAction = UIAlertAction(title: "Share", style: UIAlertAction.Style.default) { (action) in

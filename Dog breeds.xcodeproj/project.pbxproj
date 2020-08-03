@@ -26,8 +26,6 @@
 		3BE29E6224D7335A00612410 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE29E6124D7335A00612410 /* ImageCollectionViewCell.swift */; };
 		3BE29E6524D769F700612410 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE29E6424D769F700612410 /* Persistance.swift */; };
 		3BE29E6724D76AF700612410 /* ModelRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE29E6624D76AF700612410 /* ModelRealm.swift */; };
-		3BE29E6A24D8839B00612410 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE29E6824D8839B00612410 /* ShareViewController.swift */; };
-		3BE29E6B24D8839B00612410 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE29E6924D8839B00612410 /* ShareViewController.xib */; };
 		C74714A240A639C0DF850E18 /* Pods_Dog_breeds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2027D4B827D7EC08D5F43B2D /* Pods_Dog_breeds.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		3BE29E6124D7335A00612410 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		3BE29E6424D769F700612410 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
 		3BE29E6624D76AF700612410 /* ModelRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRealm.swift; sourceTree = "<group>"; };
-		3BE29E6824D8839B00612410 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		3BE29E6924D8839B00612410 /* ShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
 		71D9D43C92AE7C4F264AE529 /* Pods-Dog breeds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog breeds.debug.xcconfig"; path = "Target Support Files/Pods-Dog breeds/Pods-Dog breeds.debug.xcconfig"; sourceTree = "<group>"; };
 		FC43D76B9D343DB610B492A2 /* Pods-Dog breeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog breeds.release.xcconfig"; path = "Target Support Files/Pods-Dog breeds/Pods-Dog breeds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,8 +157,6 @@
 			children = (
 				3B0B8E9924D5B60E008591F2 /* ImageViewController.swift */,
 				3BE29E6124D7335A00612410 /* ImageCollectionViewCell.swift */,
-				3BE29E6824D8839B00612410 /* ShareViewController.swift */,
-				3BE29E6924D8839B00612410 /* ShareViewController.xib */,
 			);
 			path = ImageView;
 			sourceTree = "<group>";
@@ -254,7 +248,6 @@
 			files = (
 				3B0B8E8824D59B05008591F2 /* LaunchScreen.storyboard in Resources */,
 				3B0B8E8524D59B05008591F2 /* Assets.xcassets in Resources */,
-				3BE29E6B24D8839B00612410 /* ShareViewController.xib in Resources */,
 				3B0B8E8324D59B03008591F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +317,6 @@
 				3BE29E6724D76AF700612410 /* ModelRealm.swift in Sources */,
 				3B0B8E9A24D5B60E008591F2 /* ImageViewController.swift in Sources */,
 				3B0B8E9324D5B0FC008591F2 /* BreedsTableViewCell.swift in Sources */,
-				3BE29E6A24D8839B00612410 /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
